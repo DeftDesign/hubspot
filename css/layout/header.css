@@ -4,10 +4,11 @@
     top: 0;
     left: 0;
     width: 100%;
+    height: 130px;
     background: var(--white);
     z-index: 99;
     padding: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* Top Nav */
@@ -16,8 +17,10 @@
     justify-content: space-between;
 }
 
-.desktop-header .top-nav .settings-nav {
+.desktop-header .top-nav .settings-nav, .desktop-header .top-nav .second-nav {
     display: flex;
+    align-items: center;
+    font-weight: 500;
     font-size: .8rem;
 }
 .desktop-header .top-nav a{
@@ -26,10 +29,6 @@
 }
 .desktop-header .top-nav a:hover {
     color: var(--link);
-}
-
-.desktop-header .top-nav .second-nav {
-    display: flex;
 }
 
 /* Main Nav */
@@ -42,14 +41,26 @@
 
 .main-nav .logo img {
     width: 100px;
+    margin-right: 3rem;
+}
+
+.main-nav .nav-wrap {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-nav .primary-nav ul li a{
     display: flex;
     font-size: 1.2rem;
+    font-weight: 500;
     align-items: center;
-    padding: 1rem 2rem;
-    color: var(--secondary-text);
+    padding: 1rem;
+    color: var(--third-text);
+}
+.main-nav .primary-nav ul li a:hover {
+    color: var(--link);
 }
 
 .main-nav .primary-nav ul, .main-nav .button-nav ul{
@@ -76,6 +87,6 @@ main {
     }
 
     main {
-        padding-top: 200px;
+        padding-top: 130px;
     }
 }

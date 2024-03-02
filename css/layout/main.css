@@ -4,3 +4,8 @@ body {
     font-weight: 300;
     color: var(--primary-text);
 }
+
+.max-wrap {
+    margin: 0 auto;
+    max-width: 1080px;
+}
