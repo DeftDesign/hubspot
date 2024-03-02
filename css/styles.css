@@ -5,7 +5,11 @@
 /* Typography */
 @import "./typography/fonts.css";
 @import "./typography/headings.css";
+@import "./typography/buttons.css";
 @import "./typography/links.css";
 
 /* Layout */
+@import "./layout/main.css";
 @import "./layout/mobile-header.css";
+@import "./layout/header.css";
+@import "./layout/hero.css";

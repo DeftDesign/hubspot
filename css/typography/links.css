@@ -1,0 +1,14 @@
+p a, a, a:link {
+        color: var(--primary-text);
+        text-decoration: none;
+}
+
+p a, a, a:link:hover {
+    color: var(--link);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+p.small {
+    font-size: .8rem;
+}

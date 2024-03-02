@@ -1,0 +1,5 @@
+.hero {
+    background: var(--bg-orange);
+    padding: 2rem;
+    min-height: 400px;
+}

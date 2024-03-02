@@ -1,0 +1,19 @@
+.desktop-header {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Show desktop header */
+@media(min-width:900px) {
+    .desktop-header {
+        display: block;
+    }
+}
+
+main {
+    min-height: 200vh;
+    padding-top: 60px;
+}
