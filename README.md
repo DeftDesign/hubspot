@@ -1,0 +1,1 @@
+This is a repo for the task set by Dundee University to recreate the hubspot.com homepage using only HTML, CSS and Javascript/JQuery, to be zipped and sent for review.
