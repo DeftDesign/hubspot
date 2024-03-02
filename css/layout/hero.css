@@ -3,3 +3,8 @@
     padding: 2rem;
     min-height: 400px;
 }
+
+.hero h1 {
+    font-family: var(--display-font);
+    font-size: 3rem;
+}
