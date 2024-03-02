@@ -5,7 +5,18 @@ body {
     color: var(--primary-text);
 }
 
+/* maximum content width */
 .max-wrap {
     margin: 0 auto;
     max-width: 1080px;
+}
+
+section {
+    padding: 1rem;
+}
+
+@media(min-width:900px) {
+    section {
+        padding: 5rem 1rem;
+    }
 }
