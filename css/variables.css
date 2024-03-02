@@ -1,0 +1,18 @@
+:root {
+    /* colours */
+    --primary-text: #15141A;
+    --secondary-text: #5B5B66;
+    --accent-1: #ff5c35;
+    --accent-hover: #e04826;
+    --accent-dark: #b3361d;
+    --bg-orange: #fef4ea;
+    --link: #0068b1;
+    --teal: #b7ecec;
+    --bg-grey: #f6f9fc;
+    --white: #ffffff;
+    --dark: #192733;
+
+    /* fonts */
+    --primary-font: 'Lexend', Arial, Helvetica, sans-serif;
+    --display-font: 'Queens', "Times New Roman", Times, serif;
+}

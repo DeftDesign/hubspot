@@ -1,0 +1,56 @@
+.mobile-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background: var(--white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.mobile-header .mobile-logo img{
+    width: 2rem;
+}
+
+/* Hamburger menu */
+.mobile-header .menu-button {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-header .menu-button span,
+.mobile-header .menu-button span::before,
+.mobile-header .menu-button span::after {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--primary-text);
+}
+
+.mobile-header .menu-button span::before {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: .5rem;
+}
+
+.mobile-header .menu-button span::after {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: .5rem;
+}
+
+/* Hide mobile menu */
+@media(min-width:900px) {
+    .mobile-header {
+        display: none;
+    }
+}
