@@ -42,6 +42,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+img {
+    width: 100%;
+    height: auto;
+}
 
 /* Fonts */
 /* Lexend */
@@ -88,4 +92,20 @@ table {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+/* Variables */
+:root {
+    /* colours */
+    --primary-text: #15141A;
+    --secondary-text: #5B5B66;
+    --accent-1: #ff5c35;
+    --accent-hover: #e04826;
+    --accent-dark: #b3361d;
+    --bg-orange: #fef4ea;
+    --link: #0068b1;
+    --teal: #b7ecec;
+    --bg-grey: #f6f9fc;
+    --white: #ffffff;
+    --dark: #192733;
 }
