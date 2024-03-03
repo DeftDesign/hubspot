@@ -1,0 +1,31 @@
+section.get-started .two-column {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+}
+
+section.get-started .button-wrap {
+    justify-content: center;
+}
+
+section.get-started img {
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+
+@media(min-width:900px) {
+    section.get-started .two-column {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    section.get-started .button-wrap {
+        justify-content: flex-start;
+    }
+
+    section.get-started img {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+}
