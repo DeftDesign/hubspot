@@ -12,10 +12,10 @@
 
 @font-face {
     font-family: 'Lexend';
-    src: url('../../Lexend-SemiBold.eot');
-    src: url('../../Lexend-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../../Lexend-SemiBold.woff') format('woff'),
-        url('../../Lexend-SemiBold.ttf') format('truetype');
+    src: url('../../fonts/Lexend-SemiBold.eot');
+    src: url('../../fonts/Lexend-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Lexend-SemiBold.woff') format('woff'),
+        url('../../fonts/Lexend-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
