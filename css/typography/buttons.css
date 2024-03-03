@@ -42,3 +42,7 @@ padding: 1.25rem 2.5rem;
 .button-wrap .button{
  margin-right: 1rem;
 }
+
+.button-wrap .button:last-of-type{
+    margin-right: 0;
+   }

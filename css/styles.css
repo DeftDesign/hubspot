@@ -14,8 +14,11 @@
 @import "./layout/main.css";
 @import "./layout/mobile-header.css";
 @import "./layout/header.css";
-@import "./layout/hero.css";
-@import "./layout/logo-carousel.css";
-@import "./layout/intro.css";
-@import "./layout/selling-point.css";
-@import "./layout/service-cards.css";
+
+/* Sections */
+@import "./sections/hero.css";
+@import "./sections/logo-carousel.css";
+@import "./sections/intro.css";
+@import "./sections/selling-point.css";
+@import "./sections/service-cards.css";
+@import "./sections/spotlight.css";
