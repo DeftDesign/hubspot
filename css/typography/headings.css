@@ -1,0 +1,23 @@
+h1, h2, h3, h4 {
+    font-family: var(--primary-font);
+    line-height: 1.15;
+    color: var(--primary-text);
+}
+
+h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+p.subtitle {
+    font-weight: 600;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}

@@ -46,10 +46,10 @@
 /* Queens */
 @font-face {
     font-family: 'Queens';
-    src: url('../../fonts/QueensCondensedTrial-Medium.eot');
-    src: url('../../fonts/QueensCondensedTrial-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/QueensCondensedTrial-Medium.woff') format('woff'),
-        url('../../fonts/QueensCondensedTrial-Medium.ttf') format('truetype');
+    src: url('../../fonts/QueensTrial-Medium.eot');
+    src: url('../../fonts/QueensTrial-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/QueensTrial-Medium.woff') format('woff'),
+        url('../../fonts/QueensTrial-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
