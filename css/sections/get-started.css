@@ -5,6 +5,10 @@ section.get-started .two-column {
     text-align: center;
 }
 
+section.get-started h2 {
+    font-size: 1.5rem;
+}
+
 section.get-started .button-wrap {
     justify-content: center;
 }
@@ -19,6 +23,7 @@ section.get-started img {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        text-align: left;
     }
     section.get-started .button-wrap {
         justify-content: flex-start;
