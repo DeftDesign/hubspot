@@ -5,8 +5,9 @@
 /* Typography */
 @import "./typography/fonts.css";
 @import "./typography/headings.css";
-@import "./typography/buttons.css";
 @import "./typography/links.css";
+@import "./typography/buttons.css";
+
 
 /* Layout */
 @import "./layout/main.css";
