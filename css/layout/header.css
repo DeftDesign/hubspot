@@ -68,6 +68,8 @@
 }
 
 .main-nav .button-nav .button{
+    font-size: .875rem;
+    padding: .75rem 1rem;
     margin-left: 1rem;
 }
 
