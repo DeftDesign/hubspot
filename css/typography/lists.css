@@ -1,0 +1,19 @@
+ul.tick-list {
+    margin: 1rem 0;
+    font-size: .875rem;
+}
+
+ul.tick-list li {
+    padding-left: 2rem;
+    position: relative;
+    line-height: 2;
+}
+
+ul.tick-list li:before {
+    content: url(../../img/circle-check-filled.svg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+}
