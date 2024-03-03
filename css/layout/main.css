@@ -19,8 +19,15 @@ section {
     padding: 1rem;
 }
 
+section.centered {
+    text-align: center;
+}
+
 @media(min-width:900px) {
     section {
         padding: 5rem 1rem;
+    }
+    .two-column {
+        display: flex;
     }
 }

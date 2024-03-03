@@ -1,8 +1,21 @@
 .hero {
     background: var(--bg-orange);
-    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 6rem 0;
 }
 
 .hero h1 {
     font-family: var(--display-font);
+}
+
+.hero .content {
+    margin-bottom: 1rem;
+}
+
+.hero .imagery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
 }

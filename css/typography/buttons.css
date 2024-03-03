@@ -6,6 +6,7 @@ a.button, button {
     background: var(--accent-1);
     color: white;
     border: 2px solid var(--accent-1);
+    transition: ease .3s;
 }
 
 a.button:hover, button:hover {
@@ -13,6 +14,7 @@ a.button:hover, button:hover {
     border: 2px solid var(--accent-hover);
     text-decoration: none;
     color: var(--white);
+    transition: ease .3s;
 }
 
 /* alternative button style */
@@ -29,12 +31,13 @@ a.button:hover, button:hover {
 /* large buttons */
 .button.large {
 font-size: 1.125rem;
-padding: 1rem 1.5rem;
+padding: 1.25rem 2.5rem;
 }
 
 /* button wraps */
 .button-wrap {
     display: flex;
+    margin: 1rem 0;
 }
 .button-wrap .button{
  margin-right: 1rem;
