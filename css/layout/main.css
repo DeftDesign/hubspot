@@ -7,6 +7,7 @@ html, body {
 p {
     line-height: 1.5;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 /* maximum content width */

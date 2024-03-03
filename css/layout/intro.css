@@ -1,0 +1,11 @@
+section.intro {
+    background: var(--bg-grey);
+}
+
+section.intro .two-column div{
+    flex-basis: 50% ;
+}
+
+section.intro .column:first-of-type {
+    margin: 1.5rem;
+}

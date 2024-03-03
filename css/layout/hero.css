@@ -1,4 +1,4 @@
-.hero {
+section.hero {
     background: var(--bg-orange);
     display: flex;
     align-items: center;
