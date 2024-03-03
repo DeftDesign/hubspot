@@ -1,0 +1,25 @@
+section.selling-point {
+    background: var(--bg-orange);
+    display: flex;
+    justify-content: center;
+}
+
+section.selling-point img {
+    margin-bottom: 2rem;
+}
+
+section.selling-point p {
+    max-width: 920px;
+    line-height: 1.75;
+}
+
+
+
+@media(min-width:900px) {
+    section.selling-point h2{
+        text-align: center;
+    }
+    section.selling-point .button-wrap{
+        justify-content: center;
+    }
+}
