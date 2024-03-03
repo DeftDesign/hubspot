@@ -35,6 +35,10 @@ section.service-cards {
     transition: ease .3s;
 }
 
+.product-card div {
+    flex-grow: 0;
+}
+
 .product-card:hover {
     background: var(--bg-grey);
     transform: scale(1.05);
@@ -52,6 +56,10 @@ section.service-cards {
 
 .product-card h3 {
     margin: 0 0 0 1rem;
+}
+
+.product-card h3 {
+    flex-grow: 2;
 }
 
 .product-card .button {
