@@ -2,6 +2,7 @@ h1, h2, h3, h4 {
     font-family: var(--primary-font);
     line-height: 1.15;
     color: var(--primary-text);
+    margin-bottom: 1rem;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+
 p.subtitle {
     font-weight: 600;
     font-size: .875rem;

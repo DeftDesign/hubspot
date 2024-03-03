@@ -1,8 +1,12 @@
-body {
+html, body {
     font-family: var(--primary-font);
     font-size: 16px;
-    font-weight: 300;
     color: var(--primary-text);
+}
+
+p {
+    line-height: 1.5;
+    font-weight: 300;
 }
 
 /* maximum content width */
