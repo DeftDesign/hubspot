@@ -1,3 +1,29 @@
 section.whats-new {
     background: var(--bg-grey);
 }
+
+.whats-new-slider {
+    position: relative;
+    text-align: left;
+    margin: 4rem;
+}
+
+.whats-new-slider .slide {
+    flex: 0 0 calc(100%);
+    /* show 1 slide */
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Desktop view */
+@media(min-width:900px){
+    .whats-new-slider .slide {
+        flex-direction: row;
+    }
+
+    .slide .video, .slide .content {
+        flex-basis: 50%;
+    }
+}

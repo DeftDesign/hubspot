@@ -1,9 +1,9 @@
 // logo carousel
 $(document).ready(function () {
     var currentIndex = 0;
-    var items = $('.carousel-item');
+    var items = $('.logo-carousel .carousel-item');
     var totalItems = items.length;
-    var dotsContainer = $('.carousel-dots');
+    var dotsContainer = $('.logo-carousel .carousel-dots');
     var dots = [];
 
     // Generate dots
@@ -13,11 +13,11 @@ $(document).ready(function () {
     dots = $('.dot');
 
 
-    $('.next').click(function () {
+    $('.logo-carousel .next').click(function () {
         moveToNextSlide();
     });
 
-    $('.prev').click(function () {
+    $('.logo-carousel .prev').click(function () {
         moveToPrevSlide();
     });
 
@@ -79,15 +79,73 @@ $(document).ready(function () {
         // desktop scroll
         if ($(window).width() >= 900) {
             var newMargin = -currentIndex * (100 / 5) + '%';
-            $('.carousel-inner').css('transform', 'translateX(' + newMargin + ')');
+            $('.logo-carousel .carousel-inner').css('transform', 'translateX(' + newMargin + ')');
         }
         // mobile scroll
         else {
             var newMargin = -currentIndex * 100 + '%';
-            $('.carousel-inner').css('transform', 'translateX(' + newMargin + ')');
+            $('.logo-carousel .carousel-inner').css('transform', 'translateX(' + newMargin + ')');
             dots.removeClass('active');
             dots.eq(currentIndex).addClass('active');
         }
 
+    }
+});
+
+// Whats New Carousel
+$(document).ready(function () {
+    var currentIndex = 0;
+    var items = $('.whats-new-slider .slide');
+    var totalItems = items.length;
+    var dotsContainer = $('.whats-new-slider .carousel-dots');
+    var dots = [];
+
+    // Generate dots
+    for (var i = 0; i < totalItems; i++) {
+        dotsContainer.append('<span class="dot"></span>');
+    }
+    dots = $('.dot');
+
+
+    $('.whats-new-slider .next').click(function () {
+        moveToNextSlide();
+    });
+
+    $('.whats-new-slider .prev').click(function () {
+        moveToPrevSlide();
+    });
+
+    dots.click(function () {
+        var index = $(this).index();
+        currentIndex = index;
+        updateCarousel();
+    });
+
+    // Next button
+    function moveToNextSlide() {
+            if (currentIndex < totalItems - 1) {
+                currentIndex++;
+            }
+            else {
+                currentIndex = 0;
+            }
+            updateCarousel();
+    }
+
+    // Prev button
+    function moveToPrevSlide() {
+            if (currentIndex > 0) {
+                currentIndex--;
+            } else {
+                currentIndex = totalItems - 1;
+            }
+            updateCarousel();
+    }
+
+    function updateCarousel() {
+            var newMargin = -currentIndex * 100 + '%';
+            $('.whats-new-slider .carousel-inner').css('transform', 'translateX(' + newMargin + ')');
+            dots.removeClass('active');
+            dots.eq(currentIndex).addClass('active');
     }
 });
