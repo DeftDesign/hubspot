@@ -9,11 +9,14 @@
     z-index: 99;
     padding: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+    transition: ease .3s;
 }
 
 /* Top Nav */
 .desktop-header .top-nav {
     display: flex;
+    margin-bottom: 2rem;
     justify-content: space-between;
 }
 
@@ -36,7 +39,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 2rem 0 1rem;
 }
 
 .main-nav .logo img {
@@ -73,10 +75,6 @@
     margin-left: 1rem;
 }
 
-
-
-
-
 main {
     min-height: 200vh;
     padding-top: 60px;
@@ -91,4 +89,10 @@ main {
     main {
         padding-top: 130px;
     }
+}
+
+/* Hide Top part of header on scroll */
+.scrolled {
+    transform: translateY(-50px);
+    transition: ease .3s;
 }
