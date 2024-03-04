@@ -6,6 +6,11 @@ section.logo-carousel h2 {
     font-size: 1rem;
 }
 
+.carousel-wrap {
+    margin: 0 4rem;
+    position: relative;
+}
+
 .carousel {
     position: relative;
     overflow: hidden;
@@ -27,7 +32,7 @@ section.logo-carousel h2 {
 
 .carousel-item img {
     width: 100%;
-    /* max-width: 200px; */
+    max-width: 150px;
 }
 
 .carousel-control {
@@ -54,11 +59,11 @@ section.logo-carousel h2 {
 }
 
 .carousel-control.prev {
-    left: 0;
+    left: -4rem;
 }
 
 .carousel-control.next {
-    right: 0;
+    right: -4rem;
 }
 
 .carousel-dots {
@@ -82,24 +87,18 @@ section.logo-carousel h2 {
 
 /* Tablet view */
 @media(min-width:600px) {
-    .carousel-item {
-        flex: 0 0 calc(33.33%);
-        /* show 3 slides */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
 }
 
 /* Desktop view */
 @media(min-width:900px) {
     .carousel-item {
-        flex: 0 0 calc(20% - 1rem);
-        /* show 5 slides */
+        flex: 0 0 calc(20%);
+        /* show 1 slide */
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 .5rem;
+    
     }
 
     .carousel-dots {
