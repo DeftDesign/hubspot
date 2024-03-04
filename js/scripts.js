@@ -27,7 +27,9 @@ $(document).ready(function () {
         updateCarousel();
     });
 
+    // Next button
     function moveToNextSlide() {
+        // Scroll to begining in desktop view (5 items showing)
         if ($(window).width() >= 900) {
             if (currentIndex < totalItems - 5) {
                 currentIndex++;
@@ -37,6 +39,7 @@ $(document).ready(function () {
             }
             updateCarousel();
         }
+        // Single scroll for tablet + mobile
         else {
             if (currentIndex < totalItems - 1) {
                 currentIndex++;
@@ -49,7 +52,9 @@ $(document).ready(function () {
 
     }
 
+    // Prev button
     function moveToPrevSlide() {
+        // Scroll to begining in desktop view (5 items showing)
         if ($(window).width() >= 900) {
             if (currentIndex > 0) {
                 currentIndex--;
@@ -58,7 +63,7 @@ $(document).ready(function () {
             }
             updateCarousel();
         }
-
+        // Single scroll for tablet + mobile
         else {
             if (currentIndex > 0) {
                 currentIndex--;
