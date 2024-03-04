@@ -16,7 +16,6 @@
 /* Top Nav */
 .desktop-header .top-nav {
     display: flex;
-    margin-bottom: 2rem;
     justify-content: space-between;
 }
 
@@ -50,6 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding: 1rem 0;
 }
 
 .main-nav .logo img {
@@ -105,5 +105,28 @@ main {
 /* Hide Top part of header on scroll */
 .scrolled {
     transform: translateY(-50px);
+    transition: ease .3s;
+}
+
+/* Show / hide header logo on scroll */
+
+.scrolled-logo {
+    display: none;
+}
+
+.scrolled .logo {
+    display: none;
+}
+.scrolled .scrolled-logo {
+    display: block;
+}
+
+.primary-nav {
+    padding-left: 3rem;
+    transition: ease .3s;
+}
+
+.scrolled .primary-nav {
+    padding-left: 0;
     transition: ease .3s;
 }
