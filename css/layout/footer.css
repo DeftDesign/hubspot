@@ -24,10 +24,35 @@ footer a:hover, footer a:link:hover {
 } 
 
 footer li {
-    line-height: 2.5;
+    line-height: 3;
 }
 
 /* Footer top half */
+.footer-top {
+    display: flex;
+}
+.footer-top .left {
+    border-right: 1px solid var(--footer-link);
+    flex-basis: 40%;
+    padding-right: 2rem;
+}
+
+.footer-top .left .popular {
+    column-count: 2;
+}
+
+.footer-top .right {
+    flex-basis: 60%;
+    padding-left: 2rem;
+    display: flex;
+}
+.footer-top .right .column {
+    flex-basis: 33.333%;
+}
+
+.footer-top .right .split {
+    margin-bottom: 4rem;
+}
 
 /* Footer bottom half */
 .footer-bot {
@@ -65,7 +90,7 @@ footer li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 
