@@ -1,3 +1,15 @@
+// Hide Header on Scroll
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var desktopHeader = $('.desktop-header');
+        if ($(this).scrollTop() > 100) {
+            desktopHeader.addClass('scrolled');
+        } else {
+            desktopHeader.removeClass('scrolled');
+        }
+    });
+});
+
 // logo carousel
 $(document).ready(function () {
     var currentIndex = 0;
