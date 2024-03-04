@@ -36,6 +36,46 @@ footer li {
 .footer-bot img{
     max-width: 100px;
 }
+
+/* Social Media Nav */
+.social-wrap {
+    position: relative;
+}
+.social-wrap::before {
+    display: none;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 250px;
+    height: 1px;
+    border-bottom: 1px solid var(--footer-link);
+}
+.social-wrap::after {
+    display: none;
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 0;
+    width: 250px;
+    height: 1px;
+    border-bottom: 1px solid var(--footer-link);
+}
+.social-wrap ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+
+.social-wrap ul li {
+    margin: .5rem;
+    width: 32px;
+    height: 32px;
+}
+
+/* Legal nav */
 .legal-nav {
     display: flex;
     flex-wrap: wrap;
@@ -71,5 +111,9 @@ footer li {
 @media(min-width:900px) {
     footer {
         padding: 4rem 2rem;
+    }
+
+    .social-wrap::before, .social-wrap::after {
+        display: block;
     }
 }
