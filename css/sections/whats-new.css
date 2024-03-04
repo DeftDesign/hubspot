@@ -2,6 +2,7 @@ section.whats-new {
     background: var(--bg-grey);
 }
 
+/* Whats New Slider */
 .whats-new-slider {
     position: relative;
     text-align: left;
@@ -12,9 +13,24 @@ section.whats-new {
     flex: 0 0 calc(100%);
     /* show 1 slide */
     display: flex;
+    flex-direction: column;
     gap: 2rem;
     justify-content: center;
     align-items: center;
+}
+.whats-new-slider .slide h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.whats-new-slider .slide p {
+    line-height: 2;
+}
+.whats-new .carousel-dots {
+    margin-top: 3rem;
+}
+.whats-new .dot {
+    height: 1rem;
+    width: 1rem;
 }
 
 /* Desktop view */
@@ -23,7 +39,17 @@ section.whats-new {
         flex-direction: row;
     }
 
-    .slide .video, .slide .content {
+    .video-slide .video, .video-slide .content {
         flex-basis: 50%;
+    }
+
+    .image-slide .imagery {
+        flex-basis: 67%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-slide .content {
+        flex-basis: 33%;
     }
 }
