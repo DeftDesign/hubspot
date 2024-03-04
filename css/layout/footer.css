@@ -30,17 +30,41 @@ footer li {
 /* Footer top half */
 
 /* Footer bottom half */
+.footer-bot {
+    text-align: center;
+}
 .footer-bot img{
     max-width: 100px;
 }
-.legal-nav li {
+.legal-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.legal-nav li{
+    position: relative;
+    text-align: center;
+    line-height: 1.5;
+}
+.legal-nav li:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 33%;
+    height: 33%;
     border-right: 1px solid var(--footer-link);
+}
+.legal-nav li:last-of-type:after {
+    border-right: 0;
 }
 .legal-nav a, .legal-nav a:link{
     color: var(--white);
+    text-align: center;
+    display: block;
     text-decoration: underline;
     font-size: .875rem;
-    padding: 1rem;
+    padding: .5rem 1rem;
 }
 
 /* Desktop view */
