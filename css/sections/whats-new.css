@@ -25,12 +25,25 @@ section.whats-new {
 .whats-new-slider .slide p {
     line-height: 2;
 }
+
+.whats-new .carousel-control:hover {
+    background: var(--dot-grey);
+}
 .whats-new .carousel-dots {
     margin-top: 3rem;
 }
-.whats-new .dot {
+.what-dot {
+    display: inline-block;
     height: 1rem;
     width: 1rem;
+    background-color: var(--dot-grey);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.what-dot.active {
+    background-color: var(--dark);
 }
 
 /* Desktop view */

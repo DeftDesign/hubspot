@@ -102,9 +102,9 @@ $(document).ready(function () {
 
     // Generate dots
     for (var i = 0; i < totalItems; i++) {
-        dotsContainer.append('<span class="dot"></span>');
+        dotsContainer.append('<span class="what-dot"></span>');
     }
-    dots = $('.dot');
+    dots = $('.what-dot');
 
 
     $('.whats-new-slider .next').click(function () {
