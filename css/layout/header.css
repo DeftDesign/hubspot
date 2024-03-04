@@ -26,6 +26,17 @@
     font-weight: 600;
     font-size: .8rem;
 }
+.top-nav .settings-nav a {
+    display: flex;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+.top-nav .settings-nav svg {
+    width: 24px;
+    height: 24px;
+    margin-right: .5rem;
+}
 .desktop-header .top-nav a{
     padding-right: 1rem;
     color: var(--third-text);
