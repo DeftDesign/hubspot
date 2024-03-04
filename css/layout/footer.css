@@ -43,7 +43,7 @@ footer li {
 
 .footer-top .right {
     flex-basis: 60%;
-    padding-left: 2rem;
+    padding-left: 3rem;
     display: flex;
 }
 .footer-top .right .column {
@@ -52,6 +52,9 @@ footer li {
 
 .footer-top .right .split {
     margin-bottom: 4rem;
+}
+.footer-top .right .split:last-of-type {
+    margin-bottom: 0;
 }
 
 /* Footer bottom half */
@@ -72,7 +75,7 @@ footer li {
     content: '';
     top: 50%;
     left: 0;
-    width: 250px;
+    width: 26%;
     height: 1px;
     border-bottom: 1px solid var(--footer-link);
 }
@@ -82,15 +85,17 @@ footer li {
     content: '';
     top: 50%;
     right: 0;
-    width: 250px;
+    width: 25%;
     height: 1px;
     border-bottom: 1px solid var(--footer-link);
 }
 .social-wrap ul{
     display: flex;
+    width: 50%;
+    min-width: 250px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem 0;
+    margin: 2rem auto;
 }
 
 
