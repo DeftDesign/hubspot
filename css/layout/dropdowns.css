@@ -108,7 +108,7 @@
     font-size: 1rem;
     font-weight: 300;
     line-height: 1;
-    padding: .5rem;
+    padding: .5rem .5rem .5rem 0;
     margin-left: 3rem;
 }
 
@@ -121,7 +121,7 @@
 
 /* Software Dropdown */
 .dropdown.software .dropdown-content {
-    left: -5rem;
+    left: -15rem;
 }
 .dropdown.software .dropdown-wrap {
     padding: 0;
@@ -247,4 +247,11 @@
 .dropdown.software .bottom-section li span {
     color: var(--link);
     font-weight: 600;
+}
+
+@media(min-width:1200px) {
+    .dropdown.software .bottom-section,
+    .dropdown.software .top-section {
+        padding: 1rem 6rem;
+    }
 }
