@@ -10,17 +10,22 @@ $(document).ready(function() {
     });
 });
 
-// Intro Section Open Modal on click
+// Modal functionality
+// Any element with the class .modal-link will open a modal with the same id name and "-modal"
 $(document).ready(function(){
-    $(".modal-link").click(function(){
-      $("#whats-new-modal").addClass("show");
+    $('.modal-link').click(function(){
+        var modalId = $(this).attr('id');
+        $('#' + modalId + '-modal').addClass('show');
     });
-  });
-$(document).ready(function(){
-$("#whats-new-modal .overlay, #whats-new-modal .close").click(function(){
-    $("#whats-new-modal").removeClass("show");
+
+    // Function to close modal when close button or overlay is clicked
+    $('.modal .close, .modal .overlay').click(function(){
+        $(this).closest('.modal').removeClass('show');
+    });
 });
-});
+
+
+
 
 // logo carousel
 $(document).ready(function () {

@@ -71,3 +71,30 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Play button */
+.modal .image {
+    position: relative;
+}
+.modal .play-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: var(--accent-1);
+    color: var(--white);
+    width: 10rem;
+    height: 10rem;
+    padding: 2rem;
+    margin-top: -5rem;
+    margin-left: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    opacity: .8;
+}
+
+.modal .play-button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
