@@ -84,8 +84,7 @@
                         <li>
                             <a class="search" href="#">
                                 <!-- search icon -->
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="icon icon-tabler icon-tabler-search"
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search"
                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                                     stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -103,7 +102,8 @@
                 </nav>
                 <div class="main-nav">
                     <a class="logo" href="#"><img src="./img/hubspot-logo.svg" alt="Main Hubspot Logo" /></a>
-                    <a class="scrolled-logo" href="#"><img src="./img/hubspot-logo-min.svg" alt="Main Hubspot Logo" /></a>
+                    <a class="scrolled-logo" href="#"><img src="./img/hubspot-logo-min.svg"
+                            alt="Main Hubspot Logo" /></a>
                     <div class="nav-wrap">
                         <nav class="primary-nav">
                             <ul>
@@ -228,7 +228,9 @@
         <section class="intro">
             <div class="max-wrap two-column">
                 <div class="column">
-                    <img src="./img/homepage-video-thumbnail.webp" alt="How hubspot works video" srcset="">
+                    <div class="modal-link">
+                        <img src="./img/homepage-video-thumbnail.webp" alt="How hubspot works video" srcset="">
+                    </div>
                 </div>
                 <div class="column">
                     <h2>What is HubSpot?</h2>
@@ -694,6 +696,26 @@
             </div>
         </section>
     </main>
+
+    <!-- Whats New Modal -->
+    <div id="whats-new-modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-x-filled" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-6.489 5.8a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z" stroke-width="0" fill="currentColor" />
+                  </svg>
+            </span>
+            <div class="image">
+                <img src="./img/How HubSpot works video thumbnail-2.webp" alt="">
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+
+    </div>
 
     <footer>
         <div class="footer-top max-wrap">

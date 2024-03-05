@@ -14,6 +14,7 @@
 @import "./layout/mobile-header.css";
 @import "./layout/header.css";
 @import "./layout/footer.css";
+@import "./layout/modal.css";
 
 /* Sections */
 @import "./sections/hero.css";

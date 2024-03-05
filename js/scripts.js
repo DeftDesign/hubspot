@@ -10,6 +10,18 @@ $(document).ready(function() {
     });
 });
 
+// Intro Section Open Modal on click
+$(document).ready(function(){
+    $(".modal-link").click(function(){
+      $("#whats-new-modal").addClass("show");
+    });
+  });
+$(document).ready(function(){
+$("#whats-new-modal .overlay, #whats-new-modal .close").click(function(){
+    $("#whats-new-modal").removeClass("show");
+});
+});
+
 // logo carousel
 $(document).ready(function () {
     var currentIndex = 0;
