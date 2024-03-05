@@ -94,9 +94,26 @@
                         </li>
                         <li><a href="#">Log in</a></li>
                         <li><a href="#">Customer Support</a></li>
-                        <li>
+                        <li class="dropdown">
                             <a href="#">About
                             </a>
+                            <!-- dropdown menu -->
+                            <div class="dropdown-content">
+                                <div class="dropdown-wrap">
+                                    <ul>
+                                        <li><a href="#">About Us
+                                            </a></li>
+                                        <li><a href="#">Careers
+                                            </a></li>
+                                        <li><a href="#">Contact Us
+                                            </a></li>
+                                        <li><a href="#">Investor Relations
+                                            </a></li>
+                                        <li><a href="#">Management Team
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </nav>
@@ -107,14 +124,66 @@
                     <div class="nav-wrap">
                         <nav class="primary-nav">
                             <ul>
-                                <li>
-                                    <a href="#">Software
-                                    </a>
+                                <li class="dropdown">
+                                    <a href="#">Software</a>
+                                    <div class="dropdown-content">
+                                        <div class="dropdown-wrap">
+                                            <div class="dropdown-intro">
+                                                <h3>The HubSpot Customer Platform</h3>
+                                                <p> All of HubSpot’s marketing, sales, customer service, CMS,
+                                                    operations, and commerce software on one platform.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li><a href="#">Pricing</a></li>
-                                <li>
+                                <li class="dropdown resources">
                                     <a href="#">Resources
                                     </a>
+                                    <!-- Dropdown menu -->
+                                    <div class="dropdown-content">
+                                        <div class="dropdown-wrap">
+                                            <div class="dropdown-title">
+                                                <span><img src="./img/1-icon.svg" alt="Education icon"></span>
+                                                <h3>Education</h3>
+                                            </div>
+
+                                            <ul>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">Ebooks, Guides & More</a></li>
+                                                <li><a href="#">Free Courses & Certifications</a></li>
+                                                <li><a href="#">What Is Inbound Marketing?</a></li>
+                                                <li><a href="#">INBOUND 2024</a></li>
+                                            </ul>
+                                            <div class="dropdown-title">
+                                                <span><img src="./img/2-icon.svg" alt="Question icon"></span>
+                                                <h3>Why HubSpot?</h3>
+                                            </div>
+                                            <ul>
+                                                <li><a href="#">Case Studies</a></li>
+                                                <li><a href="#">Why Choose HubSpot?</a></li>
+                                            </ul>
+                                            <div class="dropdown-title">
+                                                <span><img src="./img/3-icon.svg" alt="Services icon"></span>
+                                                <h3>Services</h3>
+                                            </div>
+                                            <ul>
+                                                <li><a href="#">Onboarding & Consulting Services</a></li>
+                                                <li><a href="#">Hire a Service Provider</a></li>
+                                            </ul>
+                                            <div class="dropdown-title">
+                                                <span><img src="./img/4-icon.svg" alt="User Resources icon"></span>
+                                                <h3>User Resources</h3>
+                                            </div>
+                                            <ul>
+                                                <li><a href="#">Whats New</a></li>
+                                                <li><a href="#">Partner Programs</a></li>
+                                                <li><a href="#">Developer Tools</a></li>
+                                                <li><a href="#">Community</a></li>
+                                                <li><a href="#">HubSpot Ecosystem</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                         </nav>
@@ -702,18 +771,25 @@
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-x-filled" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-6.489 5.8a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z" stroke-width="0" fill="currentColor" />
-                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-x-filled"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-6.489 5.8a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z"
+                        stroke-width="0" fill="currentColor" />
+                </svg>
             </span>
             <div class="image">
                 <img src="./img/How HubSpot works video thumbnail-2.webp" alt="">
                 <div class="play-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play-filled" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" stroke-width="0" fill="currentColor" />
-                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play-filled"
+                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z"
+                            stroke-width="0" fill="currentColor" />
+                    </svg>
                 </div>
             </div>
         </div>
@@ -725,18 +801,25 @@
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-x-filled" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-6.489 5.8a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z" stroke-width="0" fill="currentColor" />
-                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-x-filled"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-6.489 5.8a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z"
+                        stroke-width="0" fill="currentColor" />
+                </svg>
             </span>
             <div class="image">
                 <img src="./img/HUB24F3001_EN_NAM_SalesHub_SalesDynasty-30-1920x1080_YouTube-thumb-2.webp" alt="">
                 <div class="play-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play-filled" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" stroke-width="0" fill="currentColor" />
-                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play-filled"
+                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z"
+                            stroke-width="0" fill="currentColor" />
+                    </svg>
                 </div>
             </div>
         </div>

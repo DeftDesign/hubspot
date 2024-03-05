@@ -1,0 +1,68 @@
+/* Basic Dropdown styling */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-wrap {
+    padding: 1rem;
+    background: var(--white);
+    z-index: 1;
+    border: 1px solid var(--border-grey);
+}
+.dropdown-wrap ul {
+    flex-direction: column;
+}
+.dropdown-content li {
+    display: block;
+    width: max-content;
+}
+
+/* Hover to enable dropdown */
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Second Nav style dropdown */
+.second-nav .dropdown-content {
+    left: auto;
+    right: 0;
+    padding-top: 1rem;
+}
+.second-nav .dropdown-content li {
+    line-height: 2;
+    font-size: .875rem;
+}
+
+/* Resources Nav Dropdown */
+.resources .dropdown-title {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.resources .dropdown-title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    background: var(--bg-grey);
+}
+
+.resources .dropdown-title h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.primary-nav .resources ul li a {
+    font-size: .875rem;
+    line-height: 1;
+    padding: .5rem;
+}
