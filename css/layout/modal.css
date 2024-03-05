@@ -73,25 +73,33 @@
 }
 
 /* Play button */
-.modal .image {
+.play-button-wrap {
     position: relative;
 }
-.modal .play-button {
+.play-button {
     position: absolute;
     left: 50%;
     top: 50%;
     background: var(--accent-1);
     color: var(--white);
-    width: 10rem;
-    height: 10rem;
-    padding: 2rem;
-    margin-top: -5rem;
-    margin-left: -5rem;
+    width: 5rem;
+    height: 5rem;
+    padding: 1.5rem;
+    margin-top: -2.5rem;
+    margin-left: -2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5rem;
     opacity: .8;
+}
+
+.play-button.big {
+    width: 10rem;
+    height: 10rem;
+    margin-top: -5rem;
+    margin-left: -5rem;
+    padding: 2rem;
 }
 
 .modal .play-button:hover {
