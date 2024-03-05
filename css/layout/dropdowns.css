@@ -41,6 +41,10 @@
 }
 
 /* Resources Nav Dropdown */
+.resources .dropdown-content {
+    left: -150%;
+}
+/* Titles */
 .resources .dropdown-title {
     display: flex;
     align-items: center;
@@ -50,19 +54,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;
-    height: 3rem;
-    padding: .5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .25rem;
     background: var(--bg-grey);
 }
 
 .resources .dropdown-title h3 {
     font-size: 1rem;
+    font-weight: 600;
     margin-bottom: 0;
 }
-
+/* Lists */
+.primary-nav .resources ul {
+    margin-bottom: 1rem;
+}
 .primary-nav .resources ul li a {
-    font-size: .875rem;
+    font-size: 1rem;
+    font-weight: 300;
     line-height: 1;
     padding: .5rem;
+    margin-left: 3rem;
+}
+
+/* Column Layout */
+.resources .dropdown-wrap {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
 }
