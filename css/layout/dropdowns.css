@@ -1,6 +1,17 @@
 /* Basic Dropdown styling */
 .dropdown {
     position: relative;
+    padding-right: .5rem;
+}
+
+.dropdown:after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -.5rem;
+    content: url(../../img/down-chevron.svg);
+    width: 1rem;
+    height: 1rem;
 }
 
 .dropdown-content {

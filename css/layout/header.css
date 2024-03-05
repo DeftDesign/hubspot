@@ -25,10 +25,16 @@
     font-weight: 600;
     font-size: .8rem;
 }
+.top-nav .settings-nav li {
+    margin-right: 1rem;
+}
 .top-nav .settings-nav a {
     display: flex;
     align-items: center;
     margin-right: .5rem;
+}
+.top-nav .settings-nav .dropdown {
+    padding-right: 1.5rem;
 }
 
 .top-nav .settings-nav svg {
@@ -37,7 +43,6 @@
     margin-right: .5rem;
 }
 .desktop-header .top-nav a{
-    padding-right: 1rem;
     color: var(--third-text);
 }
 .desktop-header .top-nav a:hover {
@@ -45,6 +50,9 @@
 }
 .desktop-header .second-nav li {
     margin-left: 1rem;
+}
+.desktop-header .second-nav .dropdown {
+    padding-right: 1.5rem;
 }
 .desktop-header .second-nav .search {
     color: var(--link);
