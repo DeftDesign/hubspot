@@ -11,6 +11,7 @@ section.get-started h2 {
 
 section.get-started .button-wrap {
     justify-content: center;
+    margin-top: 2rem;
 }
 
 section.get-started img {

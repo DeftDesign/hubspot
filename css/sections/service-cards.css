@@ -37,7 +37,7 @@ section.service-cards {
 
 .product-card:hover {
     background: var(--bg-grey);
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: ease .3s;
 }
 

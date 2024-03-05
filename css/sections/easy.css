@@ -30,6 +30,7 @@ section.easy .support-grid {
 
 .support-grid .grid-item p {
     font-size: .875rem;
+    color: var(--primary-text);
 }
 
 .support-grid .grid-item a h3 {
