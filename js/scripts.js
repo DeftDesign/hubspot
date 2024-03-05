@@ -10,6 +10,37 @@ $(document).ready(function() {
     });
 });
 
+// Show / Hide Footer Accordion
+$(document).ready(function(){
+    // Function to handle resizing
+    function handleResize() {
+        if ($(window).width() > 900) {
+            $('footer').removeClass('accordion');
+        } else {
+            $('footer').addClass('accordion');
+        }
+    }
+    // Initial call to handleResize
+    handleResize();
+    // Resize event listener
+    $(window).resize(function() {
+        handleResize();
+    });
+});
+
+// Footer Accordion
+$(document).ready(function(){
+    $('footer.accordion h3').click(function() {
+        $(this).toggleClass("active");
+        var panel = $(this).next();
+        if (panel.css('max-height') !== '0px') {
+            panel.css('max-height', '0px');
+        } else {
+            panel.css('max-height', panel.prop('scrollHeight') + 'px');
+        }
+    });
+});
+
 // Modal functionality
 // Any element with the class .modal-link will open a modal with the same id name and "-modal"
 $(document).ready(function(){
