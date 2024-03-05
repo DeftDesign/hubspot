@@ -10,6 +10,10 @@ p {
     margin-bottom: 1rem;
 }
 
+p.small {
+    font-size: .875rem;
+}
+
 /* maximum content width */
 .max-wrap {
     margin: 0 auto;
